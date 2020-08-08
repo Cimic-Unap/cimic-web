@@ -40,8 +40,20 @@ footer{
     width: 100%;
     height: 100%;
 }
-/* estilo para el texto*/ 
-.quienessomos{
+
+/* Color fondo de nosotros */
+.nosotros{
+    background-color:  rgba(58, 4, 4, 0.548) ;
     text-align: justify;
-    background-color: rgba(85, 12, 12, 0.589);
+}
+/* Color fondo de mision*/
+.mision{
+    background-color: rgba(58, 4, 4, 0.548);
+    text-align: justify;
+}
+
+/* Color fondo de vision*/
+.vision{
+    background-color:   rgba(58, 4, 4, 0.548);
+    text-align: justify;
 }
