@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Imagen del favicon + Título-->
+  <link rel="shortcut icon" href="../../../img/favicon.svg">
+  <title>Miembros</title>
+
+  <!-- Link de Bootstrap CSS -->
+  <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../css/styles-roy.css">
+  <link rel="stylesheet" href="../../../css/styles-wil.css">
+
+  <!-- Link de Fontawesome -->
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+  
+  
+</head>
+<body>
+    <!-- BARRA DE NAVEGACIÓN-->
+    <section class="container-fluid">
+    <nav class="navbar navbar-expand-lg  navbar-dark  bg-nav fixed-top"> <!-- navbar-(para la letra)  bg-(Color de Fondo Background)-->
+        <a class="navbar-brand px-4" href="../../../index.html">CIMIC</a>
+    
+        <!-- Esto hace que sea responsive (Menu Hambruguesa como dice Roy)-->    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Estas son las opciones en el Menú--> 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item"> <!-- Poner clase (activado o disable) para activar o desactivar--> 
+              <a class="nav-link" href="../../../views/QuienesSomos.html"> <i class="fas fa-address-card"></i> ¿Quienes somos? <span class="sr-only">(current)</span></a>
+            </li>
+
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user-friends"></i> Miembros</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="../general.html"><i class="fas fa-user-tie"></i> Gerencia General</a>
+                  <a class="dropdown-item" href="../asesores.html"><i class="fas fa-user-tie"></i> Asesores</a>
+                  <a class="dropdown-item" href="../gerencias.html"><i class="fas fa-user-tie"></i> Gerencias</a>
+                  <a class="dropdown-item" href="../miembros.html"><i class="fas fa-users"></i> Miembros</a>
+                </div>
+              </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="../../publicaciones.html"> <i class="fas fa-globe-americas"></i> Publicaciones</a>
+            </li>
+
+            
+            <li class="nav-item">
+                <a class="nav-link" href="../../eventos.html"><i class="fas fa-calendar-day"></i> Eventos</a>
+              </li>
+            
+          </ul>
+
+          <!-- Parte del buscador--> <!-- 
+          <form class="form-inline my-2 my-lg-0 mr-5" >
+            <input class="form-control mr-sm-2" type="search" placeholder="¿Que buscaremos?" aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form> --> 
+
+<!-- BOTONES DE INGRESAR O REGISTRARSE--> 
+ <div>
+      <button type="button pd" class="btn btn-light" data-toggle="modal" data-target="#exampleModa1">Ingresar <i class="fas fa-door-open"></i>   </button>
+      <button type="button" class="btn btn-info ml-2" data-toggle="modal" data-target="#exampleModa2">Registrarse <i class="fas fa-sign-in-alt"></i></button>
+ </div>
+        
+</div>
+  </nav>
+    </section>
+
+<!-- Este es el modal de INGRESAR-->
+<div class="modal fade" id="exampleModa1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ingresar <i class="fas fa-door-open"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        En construcción
+        <div class="text-center"><img src="https://1.bp.blogspot.com/-FbtBa61P17E/Xy7KgugAayI/AAAAAAAACI8/K5_LFNPHUk8cb9yx8zWNNcM9WvdFwlcdgCLcBGAsYHQ/s126/Imagen-animada-Engranajes-15.gif" alt=""></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Este es el modal de registrarse-->
+<div class="modal fade" id="exampleModa2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Registrarse <i class="fas fa-sign-in-alt"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Estamos trabajando en ello, gracias por su comprensión.
+        <div class="text-center"><img src="https://1.bp.blogspot.com/-FbtBa61P17E/Xy7KgugAayI/AAAAAAAACI8/K5_LFNPHUk8cb9yx8zWNNcM9WvdFwlcdgCLcBGAsYHQ/s126/Imagen-animada-Engranajes-15.gif" alt=""></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+  <!--MIEMBRO #01 - Presidente-->
+    
+  <div class="mt-4 pt-5  container ">
+    <!--repartimso a 2-->
+    <div class="row">
+      <!--Lado izquierdo--> 
+      <div class="Col-12  col-sm-12 col-md-4 col-lg-4">
+        <!--Foto perfil-->
+        <div class=" text-center">
+          <img src="https://1.bp.blogspot.com/-h29e0EZdcak/XzytN7uHlfI/AAAAAAAAADY/g788ke_9b4kZIipHGdw8lvsEYMn30e8_ACPcBGAYYCw/w510-h510/member111.png" 
+          width="60%"  height="60%" class="memberperfil" alt="Miembros">
+        </div>
+        <!--Nombre perfil-->
+        <p class="text-center">TESORERO</p>
+
+        <!--Tablita de datitos-->
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">CÓDIGO:</th>
+              <td>CMC04</td>            
+            </tr>
+            <tr>
+              <th scope="row">VIGENCIA</th>
+              <td>2020-2021</td>           
+            </tr>
+            <tr>
+              <th scope="row">ÁREA DE INTERÉS</th>
+              <td>Construcciones y estructuras</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+        <!--Lado derecho-->
+        
+      <div class="Col-12  col-sm-12 col-md-8 col-lg-8">
+        <!--Nombre e información del miembro-->
+        <h2 class="text-center">ROY ALEXIS RENZO MAMANI QUISPE</h2> 
+          <p class="text-justify">
+            Estudiante de ingenieria civil, de decimo ciclo; con muchisimas ganas de aprender de todo un poco, desde cosas técnicnas, 
+            como el diseño de estructuras hasta cosas de índole humana, como la comunicación efectiva, la empatía, la ética y saber 
+            manejar las emociones. Tambien me gusta cuidar mi salud mediante el entrenamiento de calistenia y pesas; y una de mis 
+            grandes pasiones es la tecnología, y por ello practico la programación informática.
+          </p>
+          <p class="text-justify">
+            "CIMIC" Un conjunto de personas muy talentosas, que aparte de ello son grandes amigos y ven que compartir la información y enseñarnos 
+            entre nosotros es la mejor forma de progresar. Aparte el trabajo en equipo que se logra es brutal y motiva a seguir rodeado 
+            de personas asi.
+          </p>
+          
+
+          <div class="row text-center"> 
+            <!--Fecha de actualización de información-->
+            <div class=" Col-12  col-sm-4 col-md-4 col-lg-5">
+              <p class="font-weight-bolder">GERENCIA GENERAL</p> 
+              <p class="alert alert-primary " role="alert"> 
+                 Actualizado: 21/08/2020
+                </p> 
+            </div>
+
+
+            <!--Inicio de botnes de redes sociales-->
+            <div class="Col-12  col-sm-8 col-md-8 col-lg-7"> 
+                  <div class="h4"><span class="badge badge-success mb-2">MIS REDES SOCIALES:</span> </div>
+              <div class="redes-container">
+               <ul class="redes-container-aditional">
+                
+                  <li><a target="_blank" href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a target="_blank" href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="#" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+              
+              </div>
+            </div>
+
+            <div class="col-12">
+                <p>CORREO: <span class="text-danger " >renzal863@gmail.com</span></p>
+            </div>
+
+          </div>
+               
+        <!--Fin de boton de redes sociales-->     
+      </div>
+    </div>
+  </div>      
+
+      <!--FINAL DE MIEMBRO #PRUEBA-->
+  
+    
+    
+
+    <!--Esto es el footer-->
+ <footer  class="bg-footer py-2 container-fluid" > <!--Esto me hizo sufris, ocurria un error XD :v-->
+    
+    <div class="row">
+
+      <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+        <div class="text-center mb-4"><img src="/img/LOGO2.png" alt=""></div>
+      </div>
+
+      <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+      <div class="text-center">
+        <h3 class=" h5">Déjanos tu Comentario</h3>
+        <!--Envíanos tu Comentario-->
+        <form action="text" class="mx-3">
+            <input class="form-control mr-sm-2 my-2" name="nombre" type="text" placeholder="Nombres" aria-label="Search" 
+            required>
+            <input class="form-control mr-sm-2 my-2" name="correo" type="email" placeholder="Correo Electrónico" aria-label="Search" 
+            required>
+            <input class="form-control mr-sm-2 my-2" name="telefono" type="tel" placeholder="Telefono / Celular" aria-label="Search" 
+            required>
+            <textarea class="form-control mr-sm-2 my-2" name="mensaje" type="text" placeholder="Escribe tu Comentario" aria-label="Search" cols="20" rows="6" 
+            required></textarea>
+            <p class="text-left "> <button  type="submit" class="btn btn-light font-weight-bold " id=""> ENVIAR </button>  
+        </form> </p>
+      </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+      <div class="pl-3">
+        <h3 class="text-center h5">Enlaces rápidos</h3>
+        <p > <a target="_blank" class="fb" href="https://web.facebook.com/CIMIC.EPIC"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+        <p > <a target="_blank" class="ytube" href="https://www.youtube.com/channel/UCpUZrU2-GbjU8FAWG3zKUCw/featured?view_as=subscriber"><i class="fab fa-youtube-square"></i> You Tube</a></p>
+        
+      </div>
+      </div>
+
+    
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+      <div class="pl-3">
+        <h3 class="text-center h5" >Información de contacto</h3>
+        <p> <i class="fas fa-phone-square-alt"></i> 957 474 568</p>
+        <p> <i class="fas fa-envelope"></i> cimic.epicpuno@gmail.com</p>
+      </div>
+      </div>
+
+    </div>
+
+    <div >
+      <div class="row"> 
+        <div class="col-12 ">
+          <p class="text-center">Todos los Derechos Reservados <i class="fas fa-copyright"></i> CIMIC</p>
+        </div>
+        <div class="col-12 ">
+          <p class="text-center">Designed by: 
+            <a href="cmc04.html">Roy</a> 
+            & 
+            <a href="cmc09.html">Wilder</a></p>
+        </div>
+      </div>    
+    </div>
+ </footer>
+
+
+<!-- BOTON DE IR ARRIBA-->
+<span id="button-up"> 
+  <i class="fas fa-chevron-up"></i>
+</span>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="../../../js/bootstrap.min.js"></script>  
+  <script src="../../../js/wilder.js"></script>  
+
+  
+</body>
+</html>
