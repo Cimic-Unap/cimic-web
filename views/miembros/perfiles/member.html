@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AWilder Montenegro, Estudiante de Ingeniería Civil"> 
+
+  <!-- Imagen del favicon + Título-->
+  <link rel="shortcut icon" href="https://scontent.faqp1-1.fna.fbcdn.net/v/t1.0-9/116423953_126693982453754_5018475541780211378_n.png?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeHyebmkZ9MPi9xItLlmkSMwuijf8_1k-Za6KN_z_WT5lte-0z1m9Re0-kwoCmrv5f-D7fjG7v8F38bKMXcR_hLb&_nc_ohc=bKg-dE0gthcAX-5A8tA&_nc_ht=scontent.faqp1-1.fna&oh=b1067721ab076bf94a656782bade972b&oe=5F6084E2">
+  <title>Montenegro</title>
+
+  <!-- Link de Bootstrap CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles-roy.css">
+  <link rel="stylesheet" href="/css/styles-wil.css">
+
+  <!-- Link de Fontawesome -->
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+  
+  
+</head>
+<body>
+    <!-- BARRA DE NAVEGACIÓN-->
+    <section class="container-fluid">
+    <nav class="navbar navbar-expand-lg  navbar-dark  bg-nav fixed-top"> <!-- navbar-(para la letra)  bg-(Color de Fondo Background)-->
+        <a class="navbar-brand px-4" href="https://www.cimic-unap.tk/">CIMIC</a>
+    
+        <!-- Esto hace que sea responsive (Menu Hambruguesa como dice Roy)-->    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Estas son las opciones en el Menú--> 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item"> <!-- Poner clase (activado o disable) para activar o desactivar--> 
+              <a class="nav-link" href="QuienesSomos.html"> <i class="fas fa-address-card"></i>   ¿Quienes somos? <span class="sr-only">(current)</span></a>
+            </li>
+
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user-friends"></i> Miembros</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#"><i class="fas fa-user-tie"></i> Gerencia General</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-user-tie"></i> Asesores</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-user-tie"></i> Gerencias</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-users"></i> Miembros</a>
+                </div>
+              </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="/views/publicaciones.html"> <i class="fas fa-globe-americas"></i> Publicaciones</a>
+            </li>
+
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/views/eventos.html"><i class="fas fa-calendar-day"></i> Eventos</a>
+              </li>
+            
+          </ul>
+
+          <!-- Parte del buscador--> <!-- 
+          <form class="form-inline my-2 my-lg-0 mr-5" >
+            <input class="form-control mr-sm-2" type="search" placeholder="¿Que buscaremos?" aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form> --> 
+
+<!-- BOTONES DE INGRESAR O REGISTRARSE--> 
+ <div>
+      <button type="button pd" class="btn btn-light" data-toggle="modal" data-target="#exampleModa1">Ingresar <i class="fas fa-door-open"></i>   </button>
+      <button type="button" class="btn btn-info ml-2" data-toggle="modal" data-target="#exampleModa2">Registrarse <i class="fas fa-sign-in-alt"></i></button>
+ </div>
+        
+</div>
+  </nav>
+    </section>
+
+<!-- Este es el modal de INGRESAR-->
+<div class="modal fade" id="exampleModa1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ingresar <i class="fas fa-door-open"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Estamos trabajando en ello, para que tu experiencía sea lo más acogedor posible.
+        <div class="text-center"><img src="https://1.bp.blogspot.com/-FbtBa61P17E/Xy7KgugAayI/AAAAAAAACI8/K5_LFNPHUk8cb9yx8zWNNcM9WvdFwlcdgCLcBGAsYHQ/s126/Imagen-animada-Engranajes-15.gif" alt=""></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Este es el modal de registrarse-->
+<div class="modal fade" id="exampleModa2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Registrarse <i class="fas fa-sign-in-alt"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Estamos trabajando en ello, gracias por su comprensión.
+        <div class="text-center"><img src="https://1.bp.blogspot.com/-FbtBa61P17E/Xy7KgugAayI/AAAAAAAACI8/K5_LFNPHUk8cb9yx8zWNNcM9WvdFwlcdgCLcBGAsYHQ/s126/Imagen-animada-Engranajes-15.gif" alt=""></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+  <!--MIEMBRO #01 - PRUEBA    Col-12  col-sm-12 col-md-6 col-lg-3"-->
+    
+  <div class="mt-4 pt-5  container ">
+    <!--repartimso a 2-->
+    <div class="row">
+      <!--Lado izquierdo--> 
+      <div class="Col-12  col-sm-12 col-md-4 col-lg-4">
+        <!--Foto perfil-->
+        <div class=" text-center">
+          <img src="https://scontent.faqp1-1.fna.fbcdn.net/v/t1.0-9/116423953_126693982453754_5018475541780211378_n.png?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeHyebmkZ9MPi9xItLlmkSMwuijf8_1k-Za6KN_z_WT5lte-0z1m9Re0-kwoCmrv5f-D7fjG7v8F38bKMXcR_hLb&_nc_ohc=bKg-dE0gthcAX-5A8tA&_nc_ht=scontent.faqp1-1.fna&oh=b1067721ab076bf94a656782bade972b&oe=5F6084E2" 
+          width="60%"  height="60%" class="memberperfil" alt="Miembros">
+        </div>
+        <!--Nombre perfil-->
+        <p class="text-center">Gerente de Infraestructura e Informática</p>
+
+        <!--Tablita de datitos-->
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">CÓDIGO CIMIC</th>
+              <td>CG-004</td>            
+            </tr>
+            <tr>
+              <th scope="row">VIGENCIA</th>
+              <td>2020-2021</td>           
+            </tr>
+            <tr>
+              <th scope="row">ÁREA DE INTERÉS</th>
+              <td>Construcciones</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+        <!--Lado derecho-->
+        
+      <div class="Col-12  col-sm-12 col-md-8 col-lg-8">
+        <!--Nombre e información del miembro-->
+        <h2 class="text-center">YHON WILDER MONTENEGRO QUISPE</h2>
+          <p class="text-justify">
+            Hola! Soy Wilder, estudiante del VIII semestre de la Escuela Profesional de Ingeniería Civil. Soy amigable con las personas 
+            y estoy dispuesto a ayudarlas si estos lo necesitan; Me gusta el deporte, en especial el Fútbol y otra de las actividades 
+            que me dedico en mis tiempos libres es el de la programación digital.
+          </p>
+          <p class="text-justify">Este año 2020 me uní a la familia CIMIC, que sin duda es una de mis desiciones más geniales que eh tomado
+            en mi vida, ya que aquí puedo desenvolverme y crecer tanto en lo personal y profesionalmente. 
+
+          </p>
+          
+
+          <div class="row text-center"> 
+            <!--Fecha de actualización de información-->
+            <div class=" Col-12  col-sm-4 col-md-4 col-lg-5">
+              <p class="font-weight-bolder">CIMIC - GERENCIA</p> 
+              <p class="alert alert-primary " role="alert"> 
+                 Actualizado: 16/08/2020 
+                </p> 
+            </div>
+
+
+            <!--Inicio de botnes de redes sociales-->
+            <div class="Col-12  col-sm-8 col-md-8 col-lg-7"> 
+                  <div class="h4"><span class="badge badge-success mb-2">MIS REDES SOCIALES:</span> </div>
+              <div class="redes-container">
+               <ul class="redes-container-aditional">
+                
+                  <li><a target="_blank" href="https://web.facebook.com/WilderMontenegro.net" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a target="_blank" href="https://www.instagram.com/grupo_montenegro/" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                  <li><a target="_blank" href="https://www.linkedin.com/in/yhon-wilder-montenegro-quispe-038342137/" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="#" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+              
+              </div>
+            </div>
+          </div>
+
+        <!--Fin de boton de redes sociales-->     
+      </div>
+    </div>
+    <hr>
+
+    <!--SECCION ALIADOS Col-12  col-sm-12 col-md-6 col-lg-3-->
+    <h3 class="text-center">Nuestros Aliados "CIMIC"</h3>
+    <div class="row">
+      <div class="Col-12  col-sm-6 col-md-6 col-lg-3 text-center">
+        <img src="https://d500.epimg.net/cincodias/imagenes/2015/05/08/pyme/1431098283_691735_1431098420_noticia_normal.jpg" 
+        width="200px" height="150px" alt="">
+      </div>
+      <div class="Col-12  col-sm-6 col-md-6 col-lg-3 text-center">
+        <img src="https://i.pinimg.com/originals/0b/31/aa/0b31aa72a62a8c67d9f9bcb008a06a98.jpg" 
+        width="200px" height="150px" alt="">
+      </div>
+      <div class="Col-12  col-sm-6 col-md-6 col-lg-3 text-center">
+        <img src="https://www.staffdigital.pe/blog/wp-content/uploads/identidad-corporativa-Ingenier%C3%ADa-Productividad-2.png" 
+        width="200px" height="150px"alt="">
+      </div>
+      <div class="Col-12  col-sm-6 col-md-6 col-lg-3 text-center">
+        <img src="https://agenciadecolocacion.cartagena.es/images/logos_empresas/4701.jpg" 
+        width="200px" height="100px"alt="">
+      </div>
+    </div>
+    <BR></BR>
+  </div>      
+
+      <!--FINAL DE MIEMBRO #PRUEBA-->
+  
+    
+    
+
+    <!--Esto es el footer-->
+ <footer  class="bg-footer py-2 container-fluid" > <!--Esto me hizo sufris, ocurria un error XD :v-->
+    
+    <div class="row">
+
+      <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+        <div class="text-center mb-4"><img src="/img/LOGO2.png" alt=""></div>
+      </div>
+
+      <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+      <div class="text-center">
+        <h3 class=" h5">Déjanos tu Comentario</h3>
+        <!--Envíanos tu Comentario-->
+        <form action="text" class="mx-3">
+            <input class="form-control mr-sm-2 my-2" name="nombre" type="text" placeholder="Nombres" aria-label="Search" 
+            required>
+            <input class="form-control mr-sm-2 my-2" name="correo" type="email" placeholder="Correo Electrónico" aria-label="Search" 
+            required>
+            <input class="form-control mr-sm-2 my-2" name="telefono" type="tel" placeholder="Telefono / Celular" aria-label="Search" 
+            required>
+            <textarea class="form-control mr-sm-2 my-2" name="mensaje" type="text" placeholder="Escribe tu Comentario" aria-label="Search" cols="20" rows="6" 
+            required></textarea>
+            <p class="text-left "> <button  type="submit" class="btn btn-light font-weight-bold " id=""> ENVIAR </button>  
+        </form> </p>
+      </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+      <div class="pl-3">
+        <h3 class="text-center h5">Enlaces rápidos</h3>
+        <p > <a target="_blank" class="fb" href="https://web.facebook.com/CIMIC.EPIC"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+        <p > <a target="_blank" class="ytube" href="https://www.youtube.com/channel/UCpUZrU2-GbjU8FAWG3zKUCw/featured?view_as=subscriber"><i class="fab fa-youtube-square"></i> You Tube</a></p>
+        
+      </div>
+      </div>
+
+    
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+      <div class="pl-3">
+        <h3 class="text-center h5" >Información de contacto</h3>
+        <p> <i class="fas fa-phone-square-alt"></i> +51 974514178</p>
+        <p> <i class="fas fa-envelope"></i> cimic.epic@gmail.com</p>
+      </div>
+      </div>
+
+    </div>
+
+    <div >
+      <div class="row"> 
+        <div class="col-12 ">
+          <p class="text-center">Todos los Derechos Reservados <i class="fas fa-copyright"></i> CIMIC</p>
+        </div>
+        <div class="col-12 ">
+          <p class="text-center">Designed by: 
+            <a href="file:///C:/Users/Multicomp/Desktop/Cimic%20Oficial/cimic-web/member.html#">Wilder</a> 
+            & 
+            <a href="">Roy</a></p>
+        </div>
+      </div>
+       
+    </div>
+ </footer>
+
+
+<!-- BOTON DE IR ARRIBA-->
+<span id="button-up"> 
+  <i class="fas fa-chevron-up"></i>
+</span>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>  
+  <script src="js/wilder.js"></script>  
+
+  
+</body>
+</html>
