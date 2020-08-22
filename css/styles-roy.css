@@ -80,14 +80,35 @@
 }
 
 .card-event-img {
+    display: block;
     width: 100%;
+    height: 220px;
+}
+
+.card-event h5 {
+    background-color: darkred;
+    color: white;
+    padding: 2%;
 }
 
 .event-card-title {
     display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
     border-bottom: 1.5px solid darkred;
+    font-size: 1.5em;
 }
 
+.event-card-text {
+    font-family: sans-serif, serif;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+.event-card-tags {
+    color: #000000;
+    font-style: italic;
+}
 .card-body .btn-group {
     text-align: center;
     
@@ -377,9 +398,22 @@
 
 .btn-404 {
     transform: scale(1.8);
-    margin-bottom: 8%;
+    margin-bottom: 45px;
     background-color: darkred;
     border-color: darkred;
     border-radius: 5px;
     font-family: 'Crimson Text', serif;
+}
+
+/* TABLA DE MIEMBROS */
+.table-members a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.table-members a:hover {
+    color: rgb(100, 13, 13);
+    font-size: 1.1em;
+    text-decoration: underline;
 }
