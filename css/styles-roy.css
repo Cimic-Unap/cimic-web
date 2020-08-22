@@ -1,3 +1,6 @@
+/* importar FUENTE DE GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 /* ESTILOS CSS DE ROY */
 /* fondo transparente del carrusel de videos institucionales */
 /*INDEX*/
@@ -25,6 +28,16 @@
 
 
 /*EVENTOS*/
+.events-title {
+    margin-top: -45px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 4em;
+    border-bottom: 4.5px solid black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .main-header-eventos {
     position: relative;
     background: url(https://images.pexels.com/photos/3862379/pexels-photo-3862379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
@@ -183,8 +196,12 @@
 .management-title {
     margin-top: 55px;
     padding-top: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Bree Serif', serif;
     text-align: center;
+    font-size: 4em;
+    border-bottom: 4.5px solid black;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .social-media {
@@ -242,11 +259,21 @@
     border: none;
 }
 
+/* PUBLICATIONS */
+.main-publications, .main-events {
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23640d0d' fill-opacity='0.15'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
 .card-text-events, .card-text-publications {
     border: none;
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
+}
+
+.publications-title {
+    font-size: .7em;
 }
 
 .card-header {
@@ -272,9 +299,29 @@
     border: none;
 }
 
+.card-body-publication p{
+    font-family: 'Crimson text', serif;
+    font-size: large;
+}
+
+.card-title-publication {
+    font-family: 'Crimson text', serif;
+    font-weight: bold;
+    border-bottom: 2px double rgba(100, 13, 13, 0.9);
+}
+
+.btn-view-publication {
+    background-color: rgb(100, 13, 13);
+    width: 100%;
+    font-weight: bold;
+    transform: scaleY(1.2);
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+
 
 /* VISTA DE MIEMBROS (TABLA) */
 .table {
