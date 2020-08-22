@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+
+      <!-- Imagen del favicon + Título-->
+    <link rel="shortcut icon" href="/img/favicon.svg">
+
+    <!-- Link de Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/styles-roy.css">
+    <link rel="stylesheet" href="/css/styles-wil.css">
+
+    <!-- Link de Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+</head>
+<body>
+  <!-- BARRA DE NAVEGACIÓN-->
+  <section class="container-fluid">
+    <nav class="navbar navbar-expand-lg  navbar-dark  bg-nav fixed-top"> <!-- navbar-(para la letra)  bg-(Color de Fondo Background)-->
+        <a class="navbar-brand px-4" href="/index.html">CIMIC</a>
+    
+        <!-- Esto hace que sea responsive (Menu Hambruguesa como dice Roy)-->    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Estas son las opciones en el Menú--> 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item"> <!-- Poner clase (activado o disable) para activar o desactivar--> 
+              <a class="nav-link" href="QuienesSomos.html"> <i class="fas fa-address-card"></i>   ¿Quienes somos? <span class="sr-only">(current)</span></a>
+            </li>
+
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user-friends"></i> Miembros</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/views/miembros/general.html"><i class="fas fa-user-tie"></i> Gerencia General</a>
+                  <a class="dropdown-item" href="/views/miembros/asesores.html"><i class="fas fa-user-tie"></i> Asesores</a>
+                  <a class="dropdown-item" href="/views/miembros/gerencias.html"><i class="fas fa-user-tie"></i> Gerencias</a>
+                  <a class="dropdown-item" href="/views/miembros/miembros.html"><i class="fas fa-users"></i> Miembros</a>
+                </div>
+              </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="/views/publicaciones.html"> <i class="fas fa-globe-americas"></i> Publicaciones</a>
+            </li>
+
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/views/eventos.html"><i class="fas fa-calendar-day"></i> Eventos</a>
+              </li>
+            
+          </ul>
+
+          <!-- Parte del buscador--> <!-- 
+          <form class="form-inline my-2 my-lg-0 mr-5" >
+            <input class="form-control mr-sm-2" type="search" placeholder="¿Que buscaremos?" aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form> --> 
+
+  <!-- BOTONES DE INGRESAR O REGISTRARSE--> 
+  <div>
+      <button type="button pd" class="btn btn-light" data-toggle="modal" data-target="#exampleModa1">Ingresar <i class="fas fa-door-open"></i>   </button>
+      <button type="button" class="btn btn-info ml-2" data-toggle="modal" data-target="#exampleModa2">Registrarse <i class="fas fa-sign-in-alt"></i></button>
+  </div>
+        
+  </div>
+  </nav>
+    </section>
+
+  <!-- Este es el modal de INGRESAR-->
+  <div class="modal fade" id="exampleModa1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ingresar <i class="fas fa-door-open"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Estamos trabajando en ello, para que tu experiencía sea lo más acogedor posible.
+        <div class="text-center"><img src="https://1.bp.blogspot.com/-FbtBa61P17E/Xy7KgugAayI/AAAAAAAACI8/K5_LFNPHUk8cb9yx8zWNNcM9WvdFwlcdgCLcBGAsYHQ/s126/Imagen-animada-Engranajes-15.gif" alt=""></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Este es el modal de registrarse-->
+  <div class="modal fade" id="exampleModa2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Registrarse <i class="fas fa-sign-in-alt"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Estamos trabajando en ello, gracias por su comprensión.
+        <div class="text-center"><img src="https://1.bp.blogspot.com/-FbtBa61P17E/Xy7KgugAayI/AAAAAAAACI8/K5_LFNPHUk8cb9yx8zWNNcM9WvdFwlcdgCLcBGAsYHQ/s126/Imagen-animada-Engranajes-15.gif" alt=""></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+    <!-- PÁGINA 404 -->
+    <section class="container-fluid main-404">
+        <div class="description-404 text-center mt-5 pt-4">
+            <img class="img-404" src="https://monitosexperiences.files.wordpress.com/2017/02/enconstruccion21.gif" alt="Imagen de ">
+            <h1>4<span class="description-0"> 0 </span>4</h1>
+            <p>Esta seccion viene siendo trabajada arduamente.</p>
+            <button type="button" class="btn-primary btn-404 mt-4">REGRESAME AL INICIO</button>
+        </div>
+    </section>
+    
+
+    <!--Esto es el footer-->
+    <footer  class="bg-footer py-2 container-fluid" > <!--Esto me hizo sufris, ocurria un error XD :v-->
+    
+        <div class="row">
+    
+          <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+            <div class="text-center mb-4"><img src="/img/LOGO2.png" alt=""></div>
+          </div>
+    
+          <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+          <div class="text-center">
+            <h3 class=" h5">Déjanos tu Comentario</h3>
+            <!--Envíanos tu Comentario-->
+            <form action="text" class="mx-3">
+                <input class="form-control mr-sm-2 my-2" type="text" placeholder="Nombres" aria-label="Search">
+                <input class="form-control mr-sm-2 my-2" type="email" placeholder="Correo Electrónico" aria-label="Search">
+                <input class="form-control mr-sm-2 my-2" type="tel" placeholder="Telefono / Celular" aria-label="Search">
+                <textarea class="form-control mr-sm-2 my-2" type="text" placeholder="Escribe tu Comentario" aria-label="Search" cols="20" rows="6"></textarea>
+                <p class="text-left "> <button  type="button" class="btn btn-light font-weight-bold " id=""> ENVIAR </button>  
+            </form> </p>
+          </div>
+          </div>
+    
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="pl-3">
+            <h3 class="text-center h5">Enlaces rápidos</h3>
+            <p> <a href="https://web.facebook.com/CIMIC.EPIC"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+            <p><i class="fab fa-youtube-square"></i> You Tube</p>
+            <p><i class="fab fa-whatsapp-square"></i> Grupo de Whatsapp</p>
+          </div>
+          </div>
+    
+        
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="pl-3">
+            <h3 class="text-center h5" >Información de contacto</h3>
+            <p> <i class="fas fa-phone-square-alt"></i> +51 974514178</p>
+            <p> <i class="fas fa-envelope"></i> cimic.epic@gmail.com</p>
+          </div>
+          </div>
+    
+        </div>
+    
+    <div >
+        <p class="text-center">Todos los Derechos Reservados <i class="fas fa-copyright"></i> CIMIC</p>
+    </div>
+    
+    
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="/js/bootstrap.min.js"></script>  
+</body>
+</html>
