@@ -9,9 +9,9 @@
     <link rel="shortcut icon" href="/img/favicon.svg">
 
     <!-- Link de Bootstrap CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/styles-roy.css">
-    <link rel="stylesheet" href="/css/styles-wil.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles-roy.css">
+    <link rel="stylesheet" href="../css/styles-wil.css">
 
     <!-- Link de Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
@@ -180,57 +180,81 @@
       </div>
       </section>
 
+
     <!--Esto es el footer-->
     <footer  class="bg-footer py-2 container-fluid" > <!--Esto me hizo sufris, ocurria un error XD :v-->
     
-        <div class="row">
-    
-          <div class="col-12  col-sm-12 col-md-6 col-lg-3">
-            <div class="text-center mb-4"><img src="/img/LOGO2.png" alt=""></div>
-          </div>
-    
-          <div class="col-12  col-sm-12 col-md-6 col-lg-3">
-          <div class="text-center">
-            <h3 class=" h5">Déjanos tu Comentario</h3>
-            <!--Envíanos tu Comentario-->
-            <form action="text" class="mx-3">
-                <input class="form-control mr-sm-2 my-2" type="text" placeholder="Nombres" aria-label="Search">
-                <input class="form-control mr-sm-2 my-2" type="email" placeholder="Correo Electrónico" aria-label="Search">
-                <input class="form-control mr-sm-2 my-2" type="tel" placeholder="Telefono / Celular" aria-label="Search">
-                <textarea class="form-control mr-sm-2 my-2" type="text" placeholder="Escribe tu Comentario" aria-label="Search" cols="20" rows="6"></textarea>
-                <p class="text-left "> <button  type="button" class="btn btn-light font-weight-bold " id=""> ENVIAR </button>  
-            </form> </p>
-          </div>
-          </div>
-    
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-          <div class="pl-3">
-            <h3 class="text-center h5">Enlaces rápidos</h3>
-            <p> <a href="https://web.facebook.com/CIMIC.EPIC"><i class="fab fa-facebook-square"></i> Facebook</a></p>
-            <p><i class="fab fa-youtube-square"></i> You Tube</p>
-            <p><i class="fab fa-whatsapp-square"></i> Grupo de Whatsapp</p>
-          </div>
-          </div>
-    
-        
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-          <div class="pl-3">
-            <h3 class="text-center h5" >Información de contacto</h3>
-            <p> <i class="fas fa-phone-square-alt"></i> +51 974514178</p>
-            <p> <i class="fas fa-envelope"></i> cimic.epic@gmail.com</p>
-          </div>
-          </div>
-    
+      <div class="row">
+  
+        <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+          <div class="text-center mb-4"><img src="/img/LOGO2.png" alt=""></div>
         </div>
-    
-    <div >
-        <p class="text-center">Todos los Derechos Reservados <i class="fas fa-copyright"></i> CIMIC</p>
-    </div>
+  
+        <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+        <div class="text-center">
+          <h3 class=" h5">Déjanos tu Comentario</h3>
+          <!--Envíanos tu Comentario-->
+          <form action="text" class="mx-3">
+              <input class="form-control mr-sm-2 my-2" name="nombre" type="text" placeholder="Nombres" aria-label="Search" 
+              required>
+              <input class="form-control mr-sm-2 my-2" name="correo" type="email" placeholder="Correo Electrónico" aria-label="Search" 
+              required>
+              <input class="form-control mr-sm-2 my-2" name="telefono" type="tel" placeholder="Telefono / Celular" aria-label="Search" 
+              required>
+              <textarea class="form-control mr-sm-2 my-2" name="mensaje" type="text" placeholder="Escribe tu Comentario" aria-label="Search" cols="20" rows="6" 
+              required></textarea>
+              <p class="text-left "> <button  type="submit" class="btn btn-light font-weight-bold " id=""> ENVIAR </button>  
+          </form> </p>
+        </div>
+        </div>
+  
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="pl-3">
+          <h3 class="text-center h5">Enlaces rápidos</h3>
+          <p > <a target="_blank" class="fb" href="https://web.facebook.com/CIMIC.EPIC"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+          <p > <a target="_blank" class="ytube" href="https://www.youtube.com/channel/UCpUZrU2-GbjU8FAWG3zKUCw/featured?view_as=subscriber"><i class="fab fa-youtube-square"></i> You Tube</a></p>
+          
+        </div>
+        </div>
+  
+      
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="pl-3">
+          <h3 class="text-center h5" >Información de contacto</h3>
+          <p> <i class="fas fa-phone-square-alt"></i> 957 474 568</p>
+          <p> <i class="fas fa-envelope"></i> cimic.epicpuno@gmail.com</p>
+        </div>
+        </div>
+  
+      </div>
+  
+      <div >
+        <div class="row"> 
+          <div class="col-12 ">
+            <p class="text-center">Todos los Derechos Reservados <i class="fas fa-copyright"></i> CIMIC</p>
+          </div>
+          <div class="col-12 ">
+            <p class="text-center">Designed by: 
+              <a href="views/miembros/perfiles/cmc09.html">Wilder</a> 
+              & 
+              <a href="views/miembros/perfiles/cmc04.html">Roy</a></p>
+          </div>
+        </div>
+         
+      </div>
+   </footer>
+
+  <!-- BOTON DE IR ARRIBA-->
+  <span id="button-up"> 
+    <i class="fas fa-chevron-up"></i>
+  </span>
     
     
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="/js/bootstrap.min.js"></script>  
+  <script src="../js/bootstrap.min.js"></script>  
+  <script src="../js/wilder.js"></script>  
+    
 </body>
 </html>
