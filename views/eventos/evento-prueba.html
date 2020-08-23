@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        WORKSHOP VIRTUAL GRATUITO DE PRESUPUESTOS.PE
+    </title>
+
+      <!-- Imagen del favicon + Título-->
+    <link rel="shortcut icon" href="/img/favicon.svg">
+
+    <!-- Link de Bootstrap CSS -->
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/styles-roy.css">
+    <link rel="stylesheet" href="../../css/styles-wil.css">
+    <link rel="stylesheet" href="../../css/information.css">
+
+    <!-- Link de Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+</head>
+<body>
+  <!-- BARRA DE NAVEGACIÓN-->
+  <section class="container-fluid">
+    <nav class="navbar navbar-expand-lg  navbar-dark  bg-nav fixed-top"> <!-- navbar-(para la letra)  bg-(Color de Fondo Background)-->
+        <a class="navbar-brand px-4" href="/index.html">CIMIC</a>
+    
+        <!-- Esto hace que sea responsive (Menu Hambruguesa como dice Roy)-->    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Estas son las opciones en el Menú--> 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item"> <!-- Poner clase (activado o disable) para activar o desactivar--> 
+              <a class="nav-link" href="/views/QuienesSomos.html"> <i class="fas fa-address-card"></i>   ¿Quienes somos? <span class="sr-only">(current)</span></a>
+            </li>
+
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user-friends"></i> Miembros</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/views/miembros/general.html"><i class="fas fa-user-tie"></i> Gerencia General</a>
+                  <a class="dropdown-item" href="/views/miembros/asesores.html"><i class="fas fa-user-tie"></i> Asesores</a>
+                  <a class="dropdown-item" href="/views/miembros/gerencias.html"><i class="fas fa-user-tie"></i> Gerencias</a>
+                  <a class="dropdown-item" href="/views/miembros/miembros.html"><i class="fas fa-users"></i> Miembros</a>
+                </div>
+              </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="/views/publicaciones.html"> <i class="fas fa-globe-americas"></i> Publicaciones</a>
+            </li>
+
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/views/eventos.html"><i class="fas fa-calendar-day"></i> Eventos</a>
+              </li>
+            
+          </ul>
+
+          <!-- Parte del buscador--> <!-- 
+          <form class="form-inline my-2 my-lg-0 mr-5" >
+            <input class="form-control mr-sm-2" type="search" placeholder="¿Que buscaremos?" aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form> --> 
+
+  <!-- BOTONES DE INGRESAR O REGISTRARSE--> 
+  <div>
+      <button type="button pd" class="btn btn-light" data-toggle="modal" data-target="#exampleModa1">Ingresar <i class="fas fa-door-open"></i>   </button>
+      <button type="button" class="btn btn-info ml-2" data-toggle="modal" data-target="#exampleModa2">Registrarse <i class="fas fa-sign-in-alt"></i></button>
+  </div>
+        
+  </div>
+  </nav>
+    </section>
+
+  <!-- Este es el modal de INGRESAR-->
+  <div class="modal fade" id="exampleModa1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ingresar <i class="fas fa-door-open"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Estamos trabajando en ello, para que tu experiencía sea lo más acogedor posible.
+        <div class="text-center"><img src="https://1.bp.blogspot.com/-FbtBa61P17E/Xy7KgugAayI/AAAAAAAACI8/K5_LFNPHUk8cb9yx8zWNNcM9WvdFwlcdgCLcBGAsYHQ/s126/Imagen-animada-Engranajes-15.gif" alt=""></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Este es el modal de registrarse-->
+  <div class="modal fade" id="exampleModa2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Registrarse <i class="fas fa-sign-in-alt"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Estamos trabajando en ello, gracias por su comprensión.
+        <div class="text-center"><img src="https://1.bp.blogspot.com/-FbtBa61P17E/Xy7KgugAayI/AAAAAAAACI8/K5_LFNPHUk8cb9yx8zWNNcM9WvdFwlcdgCLcBGAsYHQ/s126/Imagen-animada-Engranajes-15.gif" alt=""></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+    <!--Información del evento Col-12  col-sm-12 col-md-9 col-lg-9-->
+    <section class="pt-5  mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-9 col-lg-9">
+            <h3 class="text-center ">WORKSHOP VIRTUAL GRATUITO DE PRESUPUESTOS.PE</h3>
+
+            <p class="text-justify">Presupuestos.pe, es el Software de Última Generación, que permite a los profesionales de la construcción, 
+              Elaborar Presupuestos de Obra y Programar su Ejecución.
+              <br><br>
+              Es muy versátil, porque puede usarse desde cualquier ordenador conectado a internet y tu información estará 
+              100% segura en la nube.</p>
+
+              <!--Que aprenderas y que conocimientos previos necesitas?-->
+              <div class="row ">  
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 " >
+                    <div class="cajadescription">
+                        <h5 class="text-center">¿Que Aprenderás en el Curso?</h5>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                          </ul>
+                    </div>
+                </div>      
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 " >
+                    <div class="cajadescription">
+                        <h5 class="text-center">¿Que Conocimientos previos necesitas?</h5>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                          </ul>
+                    </div>
+                </div> 
+            </div> 
+        <!--Datos del evento-->
+            <div class="row">
+              <div class="col-4" style="padding-right: 0px; padding-left: 15px;">
+                <div style="background: rgb(117, 14, 28); " class="cajas">                  
+                  <div class="text-center pt-2"><i class="fas fa-calendar-day size-icon"></i></div>
+                  <div class="text-center">
+                    Fecha Inicio: 24/08/2020
+                  </div>
+                </div>              
+              </div>
+
+              <div class="col-4" style="padding-right: 0px; padding-left: 0px;">
+                <div style="background: rgba(117, 14, 28, 0.856);" class="cajas">
+                  <div class="text-center pt-2"><i class="far fa-clock size-icon"></i></div>
+                  <div class="text-center">
+                    Duración: +10:00 Horas
+                  </div>
+                </div>              
+              </div>
+
+              <div class="col-4" style="padding-right: 15px; padding-left: 0px;">
+                <div style="background: rgba(117, 14, 28, 0.712);" class="cajas">
+                  <div class="text-center pt-2"><i class="fas fa-satellite size-icon"></i></div>
+                  <div class="text-center">
+                    Vía: Zoom y Facebook
+                </div>              
+                </div>
+              </div>
+
+              <div class="col-12 mb-4">
+                <div style="background: rgb(159, 167, 158);" class="cajas text-center">
+                  <div class="text-center pt-2 pb-2"><i class="fas fa-edit size-icon"></i>
+                  </div>
+                  <button type="button" class="btn btn-success">Inscribirse</button>
+                  <button type="button" class="btn btn-danger">Ver más Cursos</button> 
+                  <br><br>
+                </div>              
+              </div>
+
+              <br><br>
+
+
+            </div>
+
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <div class="addthis_inline_share_toolbox"></div>
+                <br>
+            <p class="text-center">Nota: Página de prueba =)</p>
+          </div>
+          
+                    
+           
+           
+
+
+          <!--Información del ponente col-12  col-sm-12 col-md-9 col-lg-9-->
+          <div class="col-12  col-sm-12 col-md-3 col-lg-3">
+            <div class="card speaker" >
+              <img src="https://1.bp.blogspot.com/-Z0-JNHx_cVM/X0H6jvKFXiI/AAAAAAAAAIM/cbSSsRIIeskaGWMvdTC5NKvx8Uapbeo-QCLcBGAsYHQ/s0/WALTHER.png" 
+              class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="text-center">Ponente: Walter Ibañez </h5>
+                <p class="text-justify">
+                  Especialista en Gerencia de Proyectos, en Gestión de Proyectos
+                  de transportes y en Costos, presupuestos y Programación de Obras
+                </p>
+              </div>
+              <div class="text-center">
+                <hr>
+                <p><i class="fas fa-user-tie"></i> Director del software <a target="_blank" href="https://presupuestos.pe/" class="link">Presupuestos.pe</a></p> 
+                <hr>
+                <p><i class="fas fa-folder-open"></i> Magister en Gestión ambiental</p>
+                <hr>
+                <P><i class="fas fa-street-view"></i> Doctorado en Medio Ambiente Y Desarollo Sostenible</P>
+              </div>
+              <hr><br>
+              <div class="text-center">
+                <a target="_blank" href="https://web.facebook.com/Walter-Iba%C3%B1ez-Escritor-293675938046219" 
+                    class="fb-speaker"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a target="_blank" href="https://presupuestos.pe/" 
+                    class="web"><i class="fas fa-globe-americas"></i> Web</a>
+                <br>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+
+    <!--Esto es el footer-->
+    <footer  class="bg-footer py-2 container-fluid" > <!--Esto me hizo sufris, ocurria un error XD :v-->
+    
+      <div class="row">
+  
+        <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+          <div class="text-center mb-4"><img src="../../img/LOGO2.png" alt=""></div>
+        </div>
+  
+        <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+        <div class="text-center">
+          <h3 class=" h5">Déjanos tu Comentario</h3>
+          <!--Envíanos tu Comentario-->
+          <form action="text" class="mx-3">
+              <input class="form-control mr-sm-2 my-2" name="nombre" type="text" placeholder="Nombres" aria-label="Search" 
+              required>
+              <input class="form-control mr-sm-2 my-2" name="correo" type="email" placeholder="Correo Electrónico" aria-label="Search" 
+              required>
+              <input class="form-control mr-sm-2 my-2" name="telefono" type="tel" placeholder="Telefono / Celular" aria-label="Search" 
+              required>
+              <textarea class="form-control mr-sm-2 my-2" name="mensaje" type="text" placeholder="Escribe tu Comentario" aria-label="Search" cols="20" rows="6" 
+              required></textarea>
+              <p class="text-left "> <button  type="submit" class="btn btn-light font-weight-bold " id=""> ENVIAR </button>  
+          </form> </p>
+        </div>
+        </div>
+  
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="pl-3">
+          <h3 class="text-center h5">Enlaces rápidos</h3>
+          <p > <a target="_blank" class="fb" href="https://web.facebook.com/CIMIC.EPIC"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+          <p > <a target="_blank" class="ytube" href="https://www.youtube.com/channel/UCpUZrU2-GbjU8FAWG3zKUCw/featured?view_as=subscriber"><i class="fab fa-youtube-square"></i> You Tube</a></p>
+          
+        </div>
+        </div>
+  
+      
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="pl-3">
+          <h3 class="text-center h5" >Información de contacto</h3>
+          <p> <i class="fas fa-phone-square-alt"></i> 957 474 568</p>
+          <p> <i class="fas fa-envelope"></i> cimic.epicpuno@gmail.com</p>
+        </div>
+        </div>
+  
+      </div>
+  
+      <div >
+        <div class="row"> 
+          <div class="col-12 ">
+            <p class="text-center">Todos los Derechos Reservados <i class="fas fa-copyright"></i> CIMIC</p>
+          </div>
+          <div class="col-12 ">
+            <p class="text-center">Designed by: 
+              <a href="views/miembros/perfiles/cmc09.html">Wilder</a> 
+              & 
+              <a href="views/miembros/perfiles/cmc04.html">Roy</a></p>
+          </div>
+        </div>
+         
+      </div>
+   </footer>
+
+  <!-- BOTON DE IR ARRIBA-->
+  <span id="button-up"> 
+    <i class="fas fa-chevron-up"></i>
+  </span>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="../../js/bootstrap.min.js"></script>  
+    <script src="../../js/wilder.js"></script>  
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f42d761f589a983"></script>
+
+
+
+</body>
+</html>
