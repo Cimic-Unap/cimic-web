@@ -32,7 +32,7 @@
     margin-top: -45px;
     font-family: 'Bree Serif', serif;
     text-align: center;
-    font-size: 4em;
+    font-size: 2.8em;
     border-bottom: 4.5px solid black;
     margin-right: auto;
     margin-left: auto;
@@ -86,17 +86,21 @@
 }
 
 .card-event h5 {
-    background-color: darkred;
-    color: white;
-    padding: 2%;
+    font-size: .8em;
+    padding: 1%;
+    font-style: italic;
+    border-left: 2px solid darkred;
+    background-color: hsla(0, 80%, 30%, .2);
 }
 
 .event-card-title {
     display: inline-block;
     margin-right: auto;
     margin-left: auto;
-    border-bottom: 1.5px solid darkred;
-    font-size: 1.5em;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: sans-serif, serif;
+    font-weight: bold;
 }
 
 .event-card-text {
@@ -109,9 +113,13 @@
     color: #000000;
     font-style: italic;
 }
+
+.card-body {
+    padding: 5px 15px;
+}
+
 .card-body .btn-group {
     text-align: center;
-    
 }
 
 .btn-group-events {
@@ -121,8 +129,27 @@
     width: 100%;
     padding-right: 5%;
     padding-left: 5%;
+    padding-bottom: 2%;
 }
 
+.btn-group-events b {
+    font-size: .9em;
+}
+
+@media screen and (max-width: 700px) {
+    .card-event-img {
+        height: 150px;
+    }
+
+    .btn-group-events b{
+        font-size: .85em;
+        padding: 0;
+    }
+
+    .events-title {
+        font-size: 2.5em;
+    }
+}
 /* .btn-group-events {
     display: block;
     width: 80%;
@@ -225,21 +252,80 @@
     margin-left: auto;
 }
 
+/* Efectos de contenedor de redes sociales*/ 
+
+:root{
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+    --youtube: #fc0202;
+    --linkedin: #0077B5;
+    --mail: #E04C40;
+}
+
 .social-media {
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    padding: 0;
 }
 
-.social-media-element {
-    text-align: center;
-    width: 50px;
-    height: 50px;
-    padding-top: 8px;
-    border: 1.5px groove gray;
-    border-radius: 50%;
+.social-media ul {
+    padding: 0;
+    margin-bottom: 5px;
 }
+
+.social-media ul li {
+    display: inline-block;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, .75);
+    color: white;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    /*     font-size: xx-small;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 1.5px groove gray;
+ */    /* border-radius: 50%; */
+}
+
+.social-media ul li a{
+    display: block;
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+    padding: 0;
+    transition: .1s;
+    border-radius: 5px;
+}
+
+.social-media ul li a:hover{
+    transform: translateY(-4px) scale(1.2);
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.social-media .facebook:hover{
+    background: var(--facebook);
+}
+.social-media .instagram:hover{
+    background: var(--instagram);
+}
+.social-media .twitter:hover{
+    background: var(--twitter);
+}
+.social-media .youtube:hover{
+    background: var(--youtube);
+}
+.social-media .linkedin:hover{
+    background: var(--linkedin);
+}
+.social-media .mail:hover {
+    background: var(--mail);
+}
+/* Fin de stilos de redes sociales*/ 
 
 .card-manager {
     -webkit-box-shadow: -5px 10px 31px 12px rgba(100,13,13,0.73);
@@ -277,13 +363,45 @@
 }
 
 .card-text-general, .card-text-gerencias{
+    display: block;
+    text-align: center;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
 }
 
+@media screen and (max-width: 700px) {
+    .management-title {
+        font-size: 2em;
+    }
+
+    .redes-container-aditional{
+        padding: 0px ;
+    }
+    .redes-container ul li{
+        display: inline-block;
+        margin: 0;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+    }
+    
+    .redes-container ul li a{
+        display: block;
+        padding: 0 8px ; 
+        background: #333;
+        color: #fff;
+        line-height: 40px;
+        font-size: 10px;
+        box-shadow: 0 3px 4px 0px rgba(0,0,0,.2);
+        transition: .2s;
+    }
+}
 /* PUBLICATIONS */
 .main-publications, .main-events {
     background-color: #fff;
-    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23640d0d' fill-opacity='0.15'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23640d0d' fill-opacity='0.15'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E30");
 }
 
 .card-text-events, .card-text-publications {
@@ -298,7 +416,8 @@
 }
 
 .card-header {
-    background-color: rgba(100, 13, 13, 0.9);
+    background-image: linear-gradient(to bottom, rgba(100, 13, 13, .8), hsl(0, 90%, 10%) );
+    /* background-color: rgba(100, 13, 13, 0.9); */
 }
 
 .card-img-top {
@@ -307,6 +426,12 @@
     border-radius: 50%;
     border: 3px outset #fff;
 }
+
+/* .managers-card-img-top {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+} */
 
 .card-img-top:hover {
     scale: 1.5x;
@@ -337,12 +462,6 @@
     font-weight: bold;
     transform: scaleY(1.2);
 }
-
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
-
 
 /* VISTA DE MIEMBROS (TABLA) */
 .table {
