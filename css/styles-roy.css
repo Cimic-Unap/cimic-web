@@ -334,6 +334,12 @@
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1200px) {
+    .last-card-manager {
+        margin-left: 167%!important;
+    }
+}
+
 .card-title {
     text-align: center;
     border: 1.5px inset darkred;
@@ -517,14 +523,18 @@
 
 .btn-404 {
     transform: scale(1.8);
-    margin-bottom: 45px;
+    margin-bottom: 3em;
     background-color: darkred;
     border-color: darkred;
-    border-radius: 5px;
+    border-radius: .3em;
     font-family: 'Crimson Text', serif;
 }
 
 /* TABLA DE MIEMBROS */
+.table-members {
+    /* font-size: 1.3rem; */
+}
+
 .table-members a {
     color: black;
     font-weight: bold;
@@ -536,3 +546,34 @@
     font-size: 1.1em;
     text-decoration: underline;
 }
+
+.table-members-small {
+    display: none;
+}
+
+.table-members-small a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    .table-members {
+        display: none;
+    }
+
+    .table-members-small {
+        width: 95%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: .8em!important;
+    }
+
+    .link-member-profile {
+        font-size: 1em;
+        border-bottom: .05px dashed black;
+    }
+}
+       
+
