@@ -205,6 +205,7 @@
             </div>
 
        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+
             <div class="text-center font-weight-bold"> 
               <h5 class="text-primary">COMPARTIR:</h5>
            <span class="addthis_inline_share_toolbox"></span>
@@ -265,21 +266,18 @@
         </div>
   
         <div class="col-12  col-sm-12 col-md-6 col-lg-3">
-        <div class="text-center">
-          <h3 class=" h5">Déjanos tu Comentario</h3>
-          <!--Envíanos tu Comentario-->
-          <form action="text" class="mx-3">
-              <input class="form-control mr-sm-2 my-2" name="nombre" type="text" placeholder="Nombres" aria-label="Search" 
-              required>
-              <input class="form-control mr-sm-2 my-2" name="correo" type="email" placeholder="Correo Electrónico" aria-label="Search" 
-              required>
-              <input class="form-control mr-sm-2 my-2" name="telefono" type="tel" placeholder="Telefono / Celular" aria-label="Search" 
-              required>
-              <textarea class="form-control mr-sm-2 my-2" name="mensaje" type="text" placeholder="Escribe tu Comentario" aria-label="Search" cols="20" rows="6" 
-              required></textarea>
-              <p class="text-left "> <button  type="submit" class="btn btn-light font-weight-bold " id=""> ENVIAR </button>  
-          </form> </p>
-        </div>
+          <!-- FORMULARIO DE CONTACTO Y/0 COMENTARIO -->
+          <div class="text-center">
+          <h3 class=" h5">Envíanos un Mensaje:</h3>
+           <!--Envíanos tu Comentario-->
+            <form action="text" class="mx-3" method="post" action="../../js/enviar.php">
+              <input class="form-control mr-sm-2 my-2" name="nombre" type="text" placeholder="Nombres" aria-label="Search" required>
+              <input class="form-control mr-sm-2 my-2" name="correo" type="email" placeholder="Correo Electrónico" aria-label="Search" required>
+              <input class="form-control mr-sm-2 my-2" name="telefono" type="tel" placeholder="Telefono / Celular" aria-label="Search"  required>
+              <textarea class="form-control mr-sm-2 my-2" name="mensaje" type="text" placeholder="Escribe tu Comentario" aria-label="Search" cols="20" rows="6" required></textarea>
+              <p class="text-left "> <button  type="submit" class="btn btn-light font-weight-bold " id=""> ENVIAR </button> </p> 
+            </form> 
+          </div>
         </div>
   
         <div class="col-12 col-sm-6 col-md-6 col-lg-3">
