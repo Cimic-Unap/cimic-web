@@ -331,7 +331,8 @@
     -webkit-box-shadow: -5px 10px 31px 12px rgba(100,13,13,0.73);
     -moz-box-shadow: -5px 10px 31px 12px rgba(100,13,13,0.73);
     box-shadow: -5px 10px 31px 12px rgba(100,13,13,0.73);
-    margin-bottom: 20px;
+    margin-bottom: 1.3em;
+    width: 95%;
 }
 
 @media screen and (min-width: 1200px) {
@@ -377,29 +378,66 @@
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 700px) {
+/* ESTILOS PARA PANTALLAS CON ANCHO MENOR A 576px */
+@media screen and (max-width: 576px) {
+    /* CARDS EN PANTALLAS PEQUEÑAS */
     .management-title {
         font-size: 2em;
     }
 
-    .redes-container-aditional{
+    .card-header {
+        padding: .2em
+    }
+
+    .col-6 {
+            padding: .15em;
+    }
+    
+    .p-4 {
+        padding: .25em!important;
+    }
+        
+    .card-manager {
+        width: 99%;    
+        box-shadow: 0 0 .25px .25px rgba(100,13,13,0.73);
+        margin-bottom: .3em;
+    }
+
+    .card-title {
+        font-size: 1.1em;
+        margin-bottom: .2em;
+    }
+
+    .card-text-gerencias {
+        padding: 0 .2em;
+        font-size: .7em;
+    }
+    
+    /* BOTONES DE REDES SOCIALES */
+    .card-body {
+        padding: .3rem;
+    }
+
+    
+
+    .social-media-aditional{
         padding: 0px ;
     }
-    .redes-container ul li{
+    .social-media ul li{
         display: inline-block;
-        margin: 0;
-        width: 40px;
-        height: 40px;
+        margin: .05em;
+        width: 30px;
+        height: 30px;
         text-align: center;
     }
     
-    .redes-container ul li a{
+    .social-media ul li a{
         display: block;
-        padding: 0 8px ; 
+        padding: 0 5px; 
         background: #333;
         color: #fff;
-        line-height: 40px;
-        font-size: 10px;
+        line-height: 30px;
+        font-size: 15px;
         box-shadow: 0 3px 4px 0px rgba(0,0,0,.2);
         transition: .2s;
     }
@@ -563,7 +601,7 @@
     }
 
     .table-members-small {
-        width: 95%;
+        width: fit-content;
         display: block;
         margin-right: auto;
         margin-left: auto;
