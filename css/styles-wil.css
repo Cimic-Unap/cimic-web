@@ -1,0 +1,179 @@
+.bgcabeza {
+    background-color: rgb(117, 14, 28);
+}
+.imagentam {
+    width: 15rem;
+    height: 10rem;
+}
+footer{
+    background: rgb(3, 3, 15);
+    color: rgb(255, 255, 255);
+}
+
+.titulofooter{
+    padding-top: 2em;
+    padding-bottom: 4em;
+    size: 2rem;
+}
+.icon{
+    color:rgb(128, 20, 12);
+}
+.bg-nav{
+    background-color: rgb(100, 13, 13);
+}
+
+.bg-footer{
+    background-color: rgb(0, 0, 0);
+}
+
+/* fondo del banner de eventos*/ 
+.fbanner{
+    width: 100%;
+    height: 95%;
+}
+
+
+/* fondo de Quienes Somos?*/ 
+.somos1{
+    background-image: url("https://1.bp.blogspot.com/-aNHublRbFSw/XxNzMF1sbAI/AAAAAAAACE8/dbmHnUkzD9Qk99ZD9k_mvhtzACZzW7WTQCLcBGAsYHQ/w1350-h764/EPIC%2BUNA%2BPUNO.jpg") ;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+}
+
+/* Color fondo de nosotros */
+.nosotros{
+    background-color:  rgba(58, 4, 4, 0.548) ;
+    text-align: justify;
+}
+/* Color fondo de mision*/
+.mision{
+    background-color: rgba(58, 4, 4, 0.548);
+    text-align: justify;
+}
+/* Color fondo de vision*/
+.vision{
+    background-color:   rgba(58, 4, 4, 0.548);
+    text-align: justify
+}
+
+/* Efectos de contenedor de redes sociales*/ 
+
+:root{
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+    --youtube: #fc0202;
+    --linkedin: #0077B5;
+}
+.redes-container-aditional{
+    padding: 0px ;
+}
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px ; 
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 4px 0px rgba(0,0,0,.2);
+    transition: .2s;
+}
+
+
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 4px 0px rgba(0,0,0,.4);
+   
+}
+.redes-container ul li .facebook:hover{
+    background: var(--facebook);
+}
+.redes-container ul li .instagram:hover{
+    background: var(--instagram);
+}
+.redes-container ul li .twitter:hover{
+    background: var(--twitter);
+}
+.redes-container ul li .youtube:hover{
+    background: var(--youtube);
+}
+.redes-container ul li .linkedin:hover{
+    background: var(--linkedin);
+} /* Fin de stilos de redes sociales*/ 
+
+/* Estilos de enlaces rapidos*/ 
+.fb{
+   color: rgb(252, 252, 252);
+   padding: 4px 10px 4px 10px;
+}
+.fb:hover{
+    transform: scale(1.5);
+    color: rgb(252, 252, 252);
+    border-color: rgb(0,0,0,0,1);
+    background:#3b5999 ;
+    padding: 4px 10px 4px 10px;
+    border-radius: 5%;
+    text-decoration-line: none;
+}
+.ytube{
+    color: #ffffff;
+    padding: 4px 10px 4px 10px;
+}
+.ytube:hover{
+    transform: scale(1.5);
+    color: rgb(252, 252, 252);
+    border-color: rgb(0,0,0,0,1);
+    background:rgba(247, 12, 4, 0.822) ;
+    padding: 4px 10px 4px 10px;
+    border-radius: 5%;
+    text-decoration-line: none;
+}
+/* Estilos de la foto de perfil de miembros*/ 
+.memberperfil{
+    border-radius: 60%;
+}
+
+/* Ir arriba*/ 
+#button-up{
+   width: 50px;
+   height: 50px;
+   background: rgb(26, 179, 199);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   border-radius: 50%;
+   font-size: 20px;
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   cursor: pointer;
+   border: 4px solid transparent;
+   transition: all 300ms ease;
+   transform: scale(0);
+}
+#button-up:hover{
+    transform: scale(1.1);
+    border-color: rgb(0,0,0,0,1);
+}
+
+.iframe-inscripcion
+{
+    width: 100%;
+    height: 405px !important; 
+}
+
+.texto-granate
+{
+    color: rgb(0, 136, 141) !important;
+    font-size: 35px;
+}
