@@ -172,8 +172,14 @@ footer{
     height: 405px !important; 
 }
 
-.texto-granate
+.boton-slide
 {
     color: rgb(0, 136, 141) !important;
-    font-size: 35px;
+    font-size: 28px;
+}
+
+.boton-de-video
+{
+    color: rgb(255, 255, 255) !important;
+    font-size: 40px;
 }
