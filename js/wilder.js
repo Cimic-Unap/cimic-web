@@ -6,7 +6,7 @@ function scrollUp(){
     var currentScroll = document.documentElement.scrollTop;
     if (currentScroll > 0) {
         window.requestAnimationFrame(scrollUp);
-        window.scrollTo (0,currentScroll - (currentScroll / 20)); // El numero es la velocidad
+        window.scrollTo (0,currentScroll - (currentScroll / 8)); // El numero es la velocidad, cuanto más bajo más veloz
     }
 }
 
