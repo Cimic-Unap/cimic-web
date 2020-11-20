@@ -543,11 +543,11 @@
 
 .img-404 {
     display: inline-block;
-    width: 80%;
+    width: 30%;
     border-radius: 5%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .description-404 p{
