@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        WORKSHOP VIRTUAL GRATUITO DE PRESUPUESTOS.PE
+    </title>
+
+      <!-- Imagen del favicon + Título-->
+    <link rel="shortcut icon" href="/img/favicon.svg">
+
+    <!-- Link de Bootstrap CSS -->
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/styles-roy.css">
+    <link rel="stylesheet" href="../../css/styles-wil.css">
+    <link rel="stylesheet" href="../../css/styleevent.css">
+
+    <!-- Link de Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- BARRA DE NAVEGACIÓN-->
+  <section class="container-fluid">
+    <nav class="navbar navbar-expand-lg  navbar-dark  bg-nav fixed-top"> <!-- navbar-(para la letra)  bg-(Color de Fondo Background)-->
+        <a class="navbar-brand px-4" href="/index.html">CIMIC</a>
+    
+        <!-- Esto hace que sea responsive (Menu Hambruguesa como dice Roy)-->    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Estas son las opciones en el Menú--> 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item"> <!-- Poner clase (activado o disable) para activar o desactivar--> 
+              <a class="nav-link" href="/views/QuienesSomos.html"> <i class="fas fa-address-card"></i>   ¿Quienes somos? <span class="sr-only">(current)</span></a>
+            </li>
+
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user-friends"></i> Miembros</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/views/miembros/general.html"><i class="fas fa-user-tie"></i> Gerencia General</a>
+                  <a class="dropdown-item" href="/views/miembros/asesores.html"><i class="fas fa-user-tie"></i> Asesores</a>
+                  <a class="dropdown-item" href="/views/miembros/gerencias.html"><i class="fas fa-user-tie"></i> Gerencias</a>
+                  <a class="dropdown-item" href="/views/miembros/miembros.html"><i class="fas fa-users"></i> Miembros</a>
+                </div>
+              </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="/views/publicaciones.html"> <i class="fas fa-globe-americas"></i> Publicaciones</a>
+            </li>
+
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/views/eventos.html"><i class="fas fa-calendar-day"></i> Eventos</a>
+              </li>
+            
+          </ul>
+
+          <!-- Parte del buscador--> <!-- 
+          <form class="form-inline my-2 my-lg-0 mr-5" >
+            <input class="form-control mr-sm-2" type="search" placeholder="¿Que buscaremos?" aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form> --> 
+
+  <!-- BOTONES DE INGRESAR O REGISTRARSE--> 
+  <div>
+      <button type="button pd" class="btn btn-light" data-toggle="modal" data-target="#exampleModa1">Ingresar <i class="fas fa-door-open"></i>   </button>
+      <button type="button" class="btn btn-info ml-2" data-toggle="modal" data-target="#exampleModa2">Registrarse <i class="fas fa-sign-in-alt"></i></button>
+  </div>
+        
+  </div>
+  </nav>
+    </section>
+
+  <!-- Este es el modal de INGRESAR-->
+  <div class="modal fade" id="exampleModa1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ingresar <i class="fas fa-door-open"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Estamos trabajando en ello, para que tu experiencía sea lo más acogedor posible.
+        <div class="text-center"><img src="https://1.bp.blogspot.com/-FbtBa61P17E/Xy7KgugAayI/AAAAAAAACI8/K5_LFNPHUk8cb9yx8zWNNcM9WvdFwlcdgCLcBGAsYHQ/s126/Imagen-animada-Engranajes-15.gif"  alt=""></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Este es el modal de registrarse-->
+  <div class="modal fade" id="exampleModa2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Registrarse <i class="fas fa-sign-in-alt"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Estamos trabajando en ello, gracias por su comprensión.
+        <div class="text-center"><img src="https://1.bp.blogspot.com/-FbtBa61P17E/Xy7KgugAayI/AAAAAAAACI8/K5_LFNPHUk8cb9yx8zWNNcM9WvdFwlcdgCLcBGAsYHQ/s126/Imagen-animada-Engranajes-15.gif" alt=""></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+    <!--Infrmacion e imagen del evento-->
+    <section class="pt-5  mt-3">
+      <div class="container">
+          <!--  Imagen-->
+        <div class="row"> 
+          <div class="col-12 col-sm-12 col-md-7 col-lg-7">
+            <img src="../../img/jueves de ingenieria.jpg" class="imgsize" alt="">
+          </div>
+          <!--Texto-->
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+            <h4 class="text-center mt-4">GRAN EVENTO - MECÁNICA DE SUELOS AVANZADA: Características del modelo CAM CLAY</h4>
+            <P class="text-center">
+              
+              <br><br>
+              
+            </P>
+          </div>
+        </div>
+        <br>
+      </div>
+      <!--Informacion del autor y detalles del evento-->
+      <div class="bg-inf text-white">
+        <div class="container">
+          <div class="row pb-3"> 
+            <!--Imagen del autor-->
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="text-center pt-2">
+                  <h4>PONENTE</h4>
+                  <img src="../../img/WhatsApp Image 2021-11-05 at 6.24.51 PM.jpeg" 
+                  class="card-img-top autor-img" alt="...">   
+                </div>
+                 
+
+                <h4 class="text-center"> Ing. Hiden Jaime Machaca Huancollo  </h4> 
+                      
+                <div class="text-center ">
+                  <a target="_blank" href="                   " 
+                      class="fb-speaker"><i class="fab fa-facebook-f"></i> facebook</a>
+                      
+                  <a target="_blank" href="               " 
+                      class="web"><i class="fas fa-globe-americas"></i> web</a>
+                </div>             
+              </div>
+              <!--Informacion del autor -->
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+              <br>
+              <h4 class="text-center"><!--Nombre del autor--></h4>
+                <p class="text-center">
+                  Bachiller en ingeniería civil con estudios de maestría , estudios en la Universidad Nacional del Altiplano en Puno, Perú.
+                </p>
+              
+              <div class="text-center">
+                <hr>
+                <p><i class="fas fa-user-tie"></i> participo en varios proyectos de ingeniería geotécnica como análisis y diseño de fundaciones <a target="_blank" href="" class="link"></a></p> 
+                <hr>
+                <p><i class="fas fa-folder-open"></i> Trabajo en la elaboración de estudios de mecánica de suelos y rocas</p>
+                <hr>
+                <P><i class="fas fa-street-view"></i> Maestría en la Universidade Estadual do Norte Fluminense Darcy Ribeiro en Rio de Janeiro, Brasil.</P>
+              </div>
+              
+            </div>
+
+            <!--Datos del evento-->
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5" >
+              <br>
+              
+              <div class="row">
+                <div class="col-4" style="padding-right: 0px; padding-left: 15px;">
+                  <div style="background: rgb(3, 47, 88); " class="cajas">                  
+                    <div class="text-center pt-2"><i class="fas fa-calendar-day size-icon"></i></div>
+                    <div class="text-center">
+                      Fecha Inicio: 18/11/2021
+                    </div>
+                  </div>              
+                </div>
+  
+                <div class="col-4" style="padding-right: 0px; padding-left: 0px;">
+                  <div style="background: rgb(3, 47, 88);" class="cajas">
+                    <div class="text-center pt-2"><i class="far fa-clock size-icon"></i></div>
+                    <div class="text-center">
+                      Duración: +2:00 Horas
+                    </div>
+                  </div>              
+                </div>
+  
+                <div class="col-4" style="padding-right: 15px; padding-left: 0px;">
+                  <div style="background: rgb(3, 47, 88);" class="cajas">
+                    <div class="text-center pt-2"><i class="fas fa-satellite size-icon"></i></div>
+                    <div class="text-center">
+                      Vía: Zoom y Facebook
+                  </div>              
+                  </div>
+                </div>
+  
+                <div class="col-12 mb-4">
+                  <div class="text-center">
+                    <br>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc-VtZz5Bt3aI-hxfZYM5_JU4_NisfZrE-sWtLorQPJPzYhdA/viewform?usp=sf_link"><button type="button" class="btn btn-success">Inscribirse</button></a>
+                    <a href="../eventos.html"><button type="button" class="btn btn-danger">Ver más Cursos</button></a>
+                     
+                    <br>
+                  </div>              
+                </div>
+                  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                  <div class="col-12">
+                    <div class="text-center"> 
+                        <h5 class="font-weight-bold">COMPARTIR:</h5>
+                        <span class="addthis_inline_share_toolbox"></span>
+                    </div>
+                    <br>
+                  </div>
+
+                <br><br>
+             </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+            
+    <br>
+          <!--Detalles de aprendizaje-->
+          <div class="container"> 
+            <div class="row ">  
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 " >
+                      <h5 class="text-center">¿Por qué Participar?</h5>
+                      <ul>
+                          <li><i class="fas fa-check"></i> Logrará un amplio conocimiento y destreza en
+                                        en el campo de la mecanica de suelos</li>
+                          <li><i class="fas fa-check"></i> Comprenderas las nuevas formas de las aplicaciones a la ingenieria civil.</li>
+                        </ul>
+              </div>      
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 " >
+                      <h5 class="text-center">Beneficios del Workshop</h5>
+                      <ul>
+                          <li><i class="fas fa-check"></i> sesion en vivo</li>
+                          <li><i class="fas fa-check"></i> 02 hr de full aprendizaje</li>
+                          <li><i class="fas fa-check"></i> certificado opcional </li>
+                          <li><i class="fas fa-check"></i> Interacción directa con el ponente</li>
+                        </ul>                        
+              </div> 
+            </div> 
+          </div>
+      
+            
+          
+      
+    </section>
+    <br>
+
+    <!--Esto es el footer-->
+    <footer  class="bg-footer py-2 container-fluid" > 
+    
+      <div class="row">
+  
+        <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+          <div class="text-center mb-4"><img src="../../img/Logo Cimic - Oficial.png" alt="" width="50%"></div>
+          <div></div>
+          <!-- Contador de visitas -->
+          <div class="text-center pb-4 mb-2">
+            <a>
+            <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=287132">
+            </a>
+          </div>
+          <!-- Fin Contador de visitas -->
+        </div>
+  
+        <div class="col-12  col-sm-12 col-md-6 col-lg-3">
+          <!-- FORMULARIO DE CONTACTO Y/0 COMENTARIO -->
+        <div class="text-center">
+          <h3 class=" h5">Envíanos un Mensaje:</h3>
+           <!--Envíanos tu Comentario-->
+          <form action="text" class="mx-3" method="post" action="../../js/enviar.php">
+              <input class="form-control mr-sm-2 my-2" name="nombre" type="text" placeholder="Nombres" aria-label="Search" required>
+              <input class="form-control mr-sm-2 my-2" name="correo" type="email" placeholder="Correo Electrónico" aria-label="Search" required>
+              <input class="form-control mr-sm-2 my-2" name="telefono" type="tel" placeholder="Telefono / Celular" aria-label="Search"  required>
+              <textarea class="form-control mr-sm-2 my-2" name="mensaje" type="text" placeholder="Escribe tu Comentario" aria-label="Search" cols="20" rows="6" required></textarea>
+              <p class="text-left "> <button  type="submit" class="btn btn-light font-weight-bold " id=""> ENVIAR </button> </p> 
+          </form> 
+        </div>
+        </div>
+  
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="pl-3">
+          <h3 class="text-center h5">Enlaces rápidos</h3>
+          <p > <a target="_blank" class="fb" href="https://web.facebook.com/CIMIC.EPIC"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+          <p > <a target="_blank" class="ytube" href="https://www.youtube.com/channel/UCpUZrU2-GbjU8FAWG3zKUCw/featured?view_as=subscriber"><i class="fab fa-youtube-square"></i> You Tube</a></p>
+          
+        </div>
+        </div>
+  
+      
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="pl-3">
+          <h3 class="text-center h5" >Información de contacto</h3>
+          <p> <i class="fas fa-phone-square-alt"></i> 957 474 568</p>
+          <p> <i class="fas fa-envelope"></i> cimic.epicpuno@gmail.com</p>
+        </div>
+        </div>
+  
+      </div>
+  
+      <div >
+        <div class="row"> 
+          <div class="col-12 ">
+            <p class="text-center">Todos los Derechos Reservados <i class="fas fa-copyright"></i> CIMIC</p>
+          </div>
+          <div class="col-12 ">
+            <p class="text-center">Designed by: 
+              <a href="views/miembros/perfiles/cmc09.html">Wilder</a> 
+              & 
+              <a href="views/miembros/perfiles/cmc04.html">Roy</a></p>
+          </div>
+        </div>
+         
+      </div>
+   </footer>
+
+  <!-- BOTON DE IR ARRIBA-->
+  <span id="button-up"> 
+    <i class="fas fa-chevron-up"></i>
+  </span>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="../../js/bootstrap.min.js"></script>  
+    <script src="../../js/wilder.js"></script>  
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f42d761f589a983"></script>
+
+
+
+</body>
+</html>
